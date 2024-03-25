@@ -21,6 +21,7 @@ public class PathMovement : MonoBehaviour
         _isMoving = !_isMoving;
         if (!_isMoving)
         {
+            _player.MoveTo(Vector3.zero);
             StopCoroutine(_currentCoroutine);
             return;
         }

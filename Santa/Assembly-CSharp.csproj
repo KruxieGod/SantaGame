@@ -49,6 +49,7 @@
     <Compile Include="Assets\Art\Mini Simple Characters Demo\Readme\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Player\AnimatorController.cs" />
     <Compile Include="Assets\Scripts\PathMovement.cs" />
+    <None Include="Assets\Art\Snow FX\Shaider\Snow FX.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2023.1.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

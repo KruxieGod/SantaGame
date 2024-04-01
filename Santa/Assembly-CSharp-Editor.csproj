@@ -45,7 +45,17 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.1.7f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Inspector Button Pro\_Core\Editor\TypeExtensions.cs" />
+    <Compile Include="Assets\Inspector Button Pro\_Core\Editor\SerializedPropertyExtensions.cs" />
+    <Compile Include="Assets\Inspector Button Pro\_Core\Editor\MonoBehaviourEditor.cs" />
+    <Compile Include="Assets\Inspector Button Pro\_Premium Version\Editor\AbstractProEditor.cs" />
+    <Compile Include="Assets\Inspector Button Pro\_Core\Editor\ScriptableObjectEditor.cs" />
+    <Compile Include="Assets\Inspector Button Pro\_Core\Editor\AbstractEditor.cs" />
+    <Compile Include="Assets\Inspector Button Pro\_Core\Editor\QuaternionExtensions.cs" />
+    <Compile Include="Assets\Inspector Button Pro\_Premium Version\Editor\ProScriptableObjectEditor.cs" />
     <Compile Include="Assets\Art\Mini Simple Characters Demo\Readme\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Inspector Button Pro\_Core\Editor\Vector4Extensions.cs" />
+    <Compile Include="Assets\Inspector Button Pro\_Premium Version\Editor\ProMonoBehaviourEditor.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2023.1.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

@@ -54,11 +54,12 @@
     <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\IButtonAttribute.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\ButtonMonoBehavior.cs" />
     <Compile Include="Assets\LightGarlandController.cs" />
+    <Compile Include="Assets\GarlandControllerInput.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Examples\example_scripts\ExampleInspectorButtonScriptableObject.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\ObjectExtensions.cs" />
     <Compile Include="Assets\SnowFallController.cs" />
-    <Compile Include="Assets\Inspector Button Pro\_Core\Examples\example_scripts\ExampleInspectorButtonMonoBehavior.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\SerializedMethod.cs" />
+    <Compile Include="Assets\Inspector Button Pro\_Core\Examples\example_scripts\ExampleInspectorButtonMonoBehavior.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\PrefabAttribute.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\ButtonScriptableObject.cs" />
     <Compile Include="Assets\Scripts\PathMovement.cs" />

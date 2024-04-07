@@ -46,13 +46,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Inspector Button Pro\_Core\Editor\TypeExtensions.cs" />
-    <Compile Include="Assets\Inspector Button Pro\_Core\Editor\SerializedPropertyExtensions.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Editor\MonoBehaviourEditor.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Premium Version\Editor\AbstractProEditor.cs" />
-    <Compile Include="Assets\Inspector Button Pro\_Core\Editor\ScriptableObjectEditor.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Editor\AbstractEditor.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Editor\QuaternionExtensions.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Premium Version\Editor\ProScriptableObjectEditor.cs" />
+    <Compile Include="Assets\Inspector Button Pro\_Core\Editor\SerializedPropertyExtensions.cs" />
+    <Compile Include="Assets\Inspector Button Pro\_Core\Editor\ScriptableObjectEditor.cs" />
     <Compile Include="Assets\Art\Mini Simple Characters Demo\Readme\Scripts\Editor\ReadmeEditor.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Editor\Vector4Extensions.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Premium Version\Editor\ProMonoBehaviourEditor.cs" />
@@ -733,6 +733,12 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>E:\Projects Unity\SantaGame\Santa\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>E:\Projects Unity\SantaGame\Santa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>E:\Projects Unity\SantaGame\Santa\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
       <HintPath>E:\Projects Unity\SantaGame\Santa\Library\ScriptAssemblies\Cinemachine.dll</HintPath>

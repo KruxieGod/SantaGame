@@ -45,24 +45,24 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.1.7f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CameraMovement.cs" />
-    <Compile Include="Assets\Scripts\Player\Movement\PlayerController.cs" />
     <Compile Include="Assets\Art\Mini Simple Characters Demo\Readme\Scripts\Readme.cs" />
-    <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\ProPlayAttribute.cs" />
     <Compile Include="Assets\Scripts\Player\AnimatorController.cs" />
-    <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\SerializedParameter.cs" />
-    <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\ProButtonAttribute.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\IButtonAttribute.cs" />
-    <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\ButtonMonoBehavior.cs" />
     <Compile Include="Assets\LightGarlandController.cs" />
-    <Compile Include="Assets\GarlandControllerInput.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Examples\example_scripts\ExampleInspectorButtonScriptableObject.cs" />
-    <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\ObjectExtensions.cs" />
     <Compile Include="Assets\SnowFallController.cs" />
-    <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\SerializedMethod.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Examples\example_scripts\ExampleInspectorButtonMonoBehavior.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\PrefabAttribute.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\ButtonScriptableObject.cs" />
+    <Compile Include="Assets\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\Player\Movement\PlayerController.cs" />
+    <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\ProPlayAttribute.cs" />
+    <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\SerializedParameter.cs" />
+    <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\ProButtonAttribute.cs" />
+    <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\ButtonMonoBehavior.cs" />
+    <Compile Include="Assets\GarlandControllerInput.cs" />
+    <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\ObjectExtensions.cs" />
+    <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\SerializedMethod.cs" />
     <Compile Include="Assets\Scripts\PathMovement.cs" />
     <None Include="Assets\Art\Snow FX\Shaider\Snow FX.shader" />
     <Reference Include="UnityEngine">
@@ -712,6 +712,12 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>E:\Projects Unity\SantaGame\Santa\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>E:\Projects Unity\SantaGame\Santa\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>E:\Projects Unity\SantaGame\Santa\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
       <HintPath>E:\Projects Unity\SantaGame\Santa\Library\ScriptAssemblies\Cinemachine.dll</HintPath>

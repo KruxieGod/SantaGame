@@ -5,7 +5,8 @@ using UnityEngine;
 public class GarlandControllerInput : MonoBehaviour
 {
     [SerializeField] private ParticleSystem[] _particleSystems;
-    private bool _isActive;
+    [SerializeField] private GameObject[] _lights;
+    private bool _isActive = true;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.H))
@@ -16,6 +17,8 @@ public class GarlandControllerInput : MonoBehaviour
     private void SetParticles()
     {
         _isActive = !_isActive;
+        foreach (var objLight in _lights)
+            objLight.SetActive(_isActive);
         foreach (var system in _particleSystems) 
             if (_isActive)
                 system.Play();

@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Assets\Art\Mini Simple Characters Demo\Readme\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Player\AnimatorController.cs" />
+    <Compile Include="Assets\Scripts\GarlandControllerInput.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\IButtonAttribute.cs" />
     <Compile Include="Assets\LightGarlandController.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Examples\example_scripts\ExampleInspectorButtonScriptableObject.cs" />
@@ -56,11 +57,11 @@
     <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\ButtonScriptableObject.cs" />
     <Compile Include="Assets\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\Player\Movement\PlayerController.cs" />
+    <Compile Include="Assets\TimelineController.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\ProPlayAttribute.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\SerializedParameter.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\ProButtonAttribute.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\ButtonMonoBehavior.cs" />
-    <Compile Include="Assets\GarlandControllerInput.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\ObjectExtensions.cs" />
     <Compile Include="Assets\Inspector Button Pro\_Core\Scripts\SerializedMethod.cs" />
     <Compile Include="Assets\Scripts\PathMovement.cs" />

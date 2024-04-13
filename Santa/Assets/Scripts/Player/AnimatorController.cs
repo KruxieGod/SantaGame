@@ -16,12 +16,10 @@ public class AnimatorController : MonoBehaviour
     }
 
     public void Run() {
-        _animator.CrossFade(_locomotionAnim,0.2f);
-        _animator.SetFloat(_locomotionAnim, 1);
+        _animator.CrossFade(_runningAnim,0.2f);
     }
     public void Idle(){
-        _animator.CrossFade(_locomotionAnim,0.2f);
-        _animator.SetFloat(_locomotionAnim, 0);
+        _animator.CrossFade(_idleAnim ,0.2f);
     }
     public void Slide() => _animator.CrossFade(_slideAnim,0.2f);
     

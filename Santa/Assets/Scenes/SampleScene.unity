@@ -450,6 +450,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9001020653020943039, guid: 056a006bb0808ad4083709a290815e80, type: 3}
   m_PrefabInstance: {fileID: 72451547}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &72451549 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7235987809291845623, guid: 056a006bb0808ad4083709a290815e80, type: 3}
+  m_PrefabInstance: {fileID: 72451547}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &109176264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2222,6 +2227,7 @@ MonoBehaviour:
   - {fileID: 2075157481}
   - {fileID: 2066993619}
   - {fileID: 2045829518}
+  _key: 104
 --- !u!4 &842624497
 Transform:
   m_ObjectHideFlags: 0
@@ -2414,6 +2420,11 @@ PrefabInstance:
 --- !u!4 &950302605 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9001020653020943039, guid: 056a006bb0808ad4083709a290815e80, type: 3}
+  m_PrefabInstance: {fileID: 950302604}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &950302606 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7235987809291845623, guid: 056a006bb0808ad4083709a290815e80, type: 3}
   m_PrefabInstance: {fileID: 950302604}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
@@ -2774,6 +2785,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1006400949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1006400951}
+  - component: {fileID: 1006400950}
+  m_Layer: 0
+  m_Name: GarlandControllerSmoke
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1006400950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006400949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b369818dc2c734846903b871a0c5da88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _particleSystems:
+  - {fileID: 2068916068}
+  - {fileID: 1370792072}
+  - {fileID: 1056441433}
+  - {fileID: 1281376400}
+  - {fileID: 950302606}
+  - {fileID: 72451549}
+  _lights: []
+  _key: 106
+--- !u!4 &1006400951
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006400949}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.178629, y: 161.56393, z: 63.42279}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1020088987
 GameObject:
   m_ObjectHideFlags: 0
@@ -2961,6 +3025,11 @@ PrefabInstance:
 --- !u!4 &1056441432 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9001020653020943039, guid: 056a006bb0808ad4083709a290815e80, type: 3}
+  m_PrefabInstance: {fileID: 1056441431}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1056441433 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7235987809291845623, guid: 056a006bb0808ad4083709a290815e80, type: 3}
   m_PrefabInstance: {fileID: 1056441431}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1128679904
@@ -18200,6 +18269,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9001020653020943039, guid: 056a006bb0808ad4083709a290815e80, type: 3}
   m_PrefabInstance: {fileID: 1281376398}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &1281376400 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7235987809291845623, guid: 056a006bb0808ad4083709a290815e80, type: 3}
+  m_PrefabInstance: {fileID: 1281376398}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1322243412
 GameObject:
   m_ObjectHideFlags: 0
@@ -18341,6 +18415,11 @@ PrefabInstance:
 --- !u!4 &1370792071 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9001020653020943039, guid: 056a006bb0808ad4083709a290815e80, type: 3}
+  m_PrefabInstance: {fileID: 1370792070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1370792072 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7235987809291845623, guid: 056a006bb0808ad4083709a290815e80, type: 3}
   m_PrefabInstance: {fileID: 1370792070}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1449389860
@@ -19494,6 +19573,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9001020653020943039, guid: 056a006bb0808ad4083709a290815e80, type: 3}
   m_PrefabInstance: {fileID: 2068916066}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &2068916068 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7235987809291845623, guid: 056a006bb0808ad4083709a290815e80, type: 3}
+  m_PrefabInstance: {fileID: 2068916066}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2072810017
 GameObject:
   m_ObjectHideFlags: 0
@@ -19504,6 +19588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2072810019}
   - component: {fileID: 2072810018}
+  - component: {fileID: 2072810020}
   m_Layer: 0
   m_Name: TimelineSnowSlider
   m_TagString: Untagged
@@ -19547,6 +19632,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2072810020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072810017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b5dca6c1a9619b4dbe302ebb5042401, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playableDirector: {fileID: 2072810018}
+  _animator: {fileID: 493213610}
 --- !u!1 &2075157481
 GameObject:
   m_ObjectHideFlags: 0
@@ -19879,6 +19978,7 @@ SceneRoots:
   - {fileID: 1322243414}
   - {fileID: 109176264}
   - {fileID: 842624497}
+  - {fileID: 1006400951}
   - {fileID: 1622012413}
   - {fileID: 1661871286}
   - {fileID: 2072810019}

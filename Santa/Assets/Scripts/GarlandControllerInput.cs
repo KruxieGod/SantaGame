@@ -6,10 +6,11 @@ public class GarlandControllerInput : MonoBehaviour
 {
     [SerializeField] private ParticleSystem[] _particleSystems;
     [SerializeField] private GameObject[] _lights;
+    [SerializeField] private KeyCode _key;
     private bool _isActive = true;
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.H))
+        if (Input.GetKeyDown(_key))
             SetParticles();
 
     }

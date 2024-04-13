@@ -5,47 +5,27 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private CharacterController _characterController;
-    [SerializeField] private AnimatorController _animatorController;
-    [SerializeField] private Camera _camera;
-    [SerializeField] private float _speed;
-    [SerializeField] private float _speedRotation;
-
-    void Update()
-    {
-        //var direction = new Vector2(Input.GetAxis("Horizontal"),Input.GetAxis("Vertical"));
-        //Move(direction);
-    }
+    [SerializeField] private CharacterController _characterController; // контроллер персонажа, встроенный юнити
+    [SerializeField] private AnimatorController _animatorController; // контроллер анимаций
+    [SerializeField] private float _speed; // скорость передвижения
+    [SerializeField] private float _speedRotation; // скорость поворота
     
     public void MoveTo(Vector3 input)
     {
-        _animatorController.Animate(new Vector2(input.x, input.z));
+        _animatorController.Animate(new Vector2(input.x, input.z)); // анимируем движение в зависимости от направления
         if (input == Vector3.zero)
             return;
         Vector3 dir = input;
         dir = new Vector3(dir.x, 0, dir.z);
         dir.Normalize();
-        ApplyRotation(dir);
-        _characterController.Move(dir * (_speed * Time.deltaTime));
-    }
-
-    private void Move(Vector2 input)
-    {
-        _animatorController.Animate(input);
-        if (input == Vector2.zero)
-            return;
-        Vector3 dir =  _camera.transform.right*input.x + _camera.transform.forward*input.y;
-        dir = new Vector3(dir.x, 0, dir.z);
-        dir.Normalize();
-        ApplyRotation(dir);
-        _characterController.Move(dir * (_speed * Time.deltaTime));
+        ApplyRotation(dir); // применяем поворот по направлению движения
+        _characterController.Move(dir * (_speed * Time.deltaTime)); // двигаем по направлению (Time.deltaTime - разница между кадрами, чтобы персонаж не телепортировался)
     }
     
     private void ApplyRotation(Vector3 direction)
     {
         var eulerAngles = transform.eulerAngles;
-        float angle = Mathf.Atan2(direction.z, direction.x) * Mathf.Rad2Deg;
-        var targetRotation = Mathf.MoveTowardsAngle(transform.rotation.eulerAngles.y, Quaternion.LookRotation(direction).eulerAngles.y, _speedRotation);
+        var targetRotation = Mathf.MoveTowardsAngle(transform.rotation.eulerAngles.y, Quaternion.LookRotation(direction).eulerAngles.y, _speedRotation); // вычисляем угол по эйлеру
         var rotation = new Vector3(eulerAngles.x,targetRotation,eulerAngles.z);
         transform.eulerAngles = rotation;
     }

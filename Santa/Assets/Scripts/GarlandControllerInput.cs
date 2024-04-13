@@ -22,8 +22,8 @@ public class GarlandControllerInput : MonoBehaviour
             objLight.SetActive(_isActive);
         foreach (var system in _particleSystems) 
             if (_isActive)
-                system.Play();
+                system.Play(); // включаем анимацию 
             else
-                system.Stop();
+                system.Stop();// отключаем анимацию 
     }
 }
